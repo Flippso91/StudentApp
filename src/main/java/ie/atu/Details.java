@@ -5,6 +5,18 @@ public class Details {
     private String studentEmail;
     private String studentCourse;
 
+    public Details() {
+        this.studentName = "";
+        this.studentEmail = "";
+        this.studentCourse = "";
+    }
+
+    public Details(String studentName) {
+        this.studentName = studentName;
+        this.studentEmail = "";
+        this.studentCourse = "";
+    }
+
     public String getStudentName() {
         return studentName;
     }
