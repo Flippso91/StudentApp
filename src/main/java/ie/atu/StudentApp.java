@@ -24,10 +24,16 @@ public class StudentApp {
         System.out.println("Please enter Student Course: ");
         student2.setStudentCourse(input.next());
 
+        System.out.println("Please enter Student Name: ");
+        enteredName = input.next();
+        System.out.println("Please enter Student Email: ");
+        enteredEmail = input.next();
+        System.out.println("Please enter Student Course: ");
+        enteredCourse = input.next();
+        Details student3 = new Details(enteredName, enteredEmail, enteredCourse);
+
         System.out.println(student1.getStudentName() + " " + student1.getStudentEmail() + " " + student1.getStudentCourse());
         System.out.println(student2.getStudentName() + " " + student2.getStudentEmail() + " " + student2.getStudentCourse());
-
-
-
+        System.out.println(student3.getStudentName() + " " + student3.getStudentEmail() + " " + student3.getStudentCourse());
     }
 }

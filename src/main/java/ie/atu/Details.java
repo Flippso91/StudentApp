@@ -17,6 +17,12 @@ public class Details {
         this.studentCourse = "";
     }
 
+    public Details(String studentName, String studentEmail, String studentCourse) {
+        this.studentName = studentName;
+        this.studentEmail = studentEmail;
+        this.studentCourse = studentCourse;
+    }
+
     public String getStudentName() {
         return studentName;
     }
